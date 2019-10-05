@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- for correct font size on mobile devices -->
-<meta name="description" content="Academic homepage of Yun Wang (Maigo)">
-<meta name="keywords" content="Yun Wang, Maigo, Facebook, Carnegie Mellon University, CMU, Language Technologies Institute, LTI">
-<title>Yun Wang (Maigo)</title>
+<meta name="description" content="Academic homepage of Sida Wang">
+<meta name="keywords" content="Sida Wang, Waymo, Carnegie Mellon University, CMU, Robotics, Autonomous Driving">
+<title>Sida Wang</title>
 <style>
 body {
   max-width: 800px;
@@ -195,7 +195,7 @@ function prepareLinks() {
 
 <section id="top" style="padding-top: 20px">
 <div style="float: right; width: 23%; height: auto; margin-left: 30px">
-  <div><img src="img/maigo.png" alt="Yun Wang (Maigo)" style="width: 100%; height: auto"></div>
+  <div><img src="img/maigo.png" alt="Sida Wang" style="width: 100%; height: auto"></div>
   <div style="width: 100%; margin-top: 5px; font-size: 0; text-align-last: justify">
     <a href="mailto:maigoakisame@gmail.com"><img src="img/icon/email.png" alt="Email" class="contact-larger"></a>
     <a target="_blank" href="https://www.facebook.com/maigoakisame"><img src="img/icon/facebook-round.png" alt="Facebook" class="contact-larger"></a>
@@ -206,53 +206,19 @@ function prepareLinks() {
   </div>
 </div>
 <p style="font-size: 300%; margin: 0 0 20px 0">
-<span title="In Chinese: 王赟">Yun Wang</span>
-(<span title='Maigo is my nickname. It means "lost child" in Japanese.'>Maigo</span>)
+<span title="In Chinese: 王思达">Sida Wang</span>
 </p>
 <div class="card">
-  <p>I am currently a research scientist in the Applied Machine Learning group of Facebook.</p>
-  <p>I graduated as a PhD from the Language Technologies Institute (LTI) of Carnegie Mellon University (CMU) in October 2018.
-     I worked with Prof. <a target="_blank" href="http://www.cs.cmu.edu/~fmetze/">Florian Metze</a> on sound event detection.</p>
-  <p>My research interests also include speech recognition and machine learning.</p>
+  <p>I am currently a software engineer in the Planner Core Team of Waymo.</p>
+  <p>I graduated as a master student from the Robotics Institute of Carnegie Mellon University (CMU) in Dec 2016. After graduation, I worked on motion planning for autonomous driving in Aptiv and RobotWits for 2 years.</p>
 </div>
 </section>
 
 <section id="work">
 <h1>Work Experience</h1>
-<div class="card timeline">
-  <img src="img/icon/facebook.png" alt="Facebook">
-  <h2>Facebook, Inc.</h2>
-  <table>
-    <tr><td>11/2018 ~</td><td>Research scientist in the Applied Machine Learning group</tr>
-    <tr><td>01/2015 ~ 04/2015</td><td>Software engineer intern in the Language Technology group</tr>
-  </table>
-</div>
-</section>
-
-<section id="education">
-<h1>Education</h1>
-<div class="card timeline">
-  <img src="img/icon/cmu.png" alt="Carnegie Mellon University">
-  <h2>Carnegie Mellon University</h2>
-  <table>
-    <tr><td>08/2012 ~ 10/2018</td><td>PhD student at Language Technologies Institute (LTI)</tr>
-    <tr><td>08/2010 ~ 08/2012</td><td>Master student at Language Technologies Institute (LTI)</tr>
-  </table>
-</div>
-<div class="card timeline">
-  <img src="img/icon/tsinghua.png" alt="Tsinghua University">
-  <h2>Tsinghua University</h2>
-  <table>
-    <tr><td>08/2006 ~ 07/2010</td><td>Undergraduate student in the Dept. of Electronic Engineering</tr>
-  </table>
-</div>
-</section>
-
-<section id="projects">
-<h1>Research Projects</h1>
 <div class="card project">
-  <img src="img/proj/event-detection.jpg" alt="Sound Event Detection with Weak Labeling">
-  <h2>Sound Event Detection with Weak Labeling (05/2015 - 10/2018)</h2>
+  <img src="img/icon/waymo.png" alt="Waymo LLC">
+  <h2>Waymo LLC (08/2019 ~ present)</h2>
   <p>Sound event detection (SED) is the task of classifying and localizing
   semantically meaningful units of sounds, such as car engine noise and
   dog barks, in audio streams.
@@ -269,95 +235,103 @@ function prepareLinks() {
   which aims to understand what is the high-level event happening in a video
   or audio recording, such as a soccer game or a birthday party.</p>
   <p>Main publications:
-  [<a href="#icassp16">ICASSP16</a>],
-  [<a href="#icassp17">ICASSP17</a>],
-  [<a href="#interspeech17">Interspeech17</a>],
-  [<a href="#interspeech18a">Interspeech18a</a>],
-  [<a href="#icassp19a">ICASSP19a</a>],
-  [<a href="#icassp19b">ICASSP19b</a>].</p>
-  <p>Other publications:
-  [<a href="#icmr16">ICMR16</a>],
-  [<a href="#icassp18">ICASSP18</a>],
-  [<a href="#interspeech18b">Interspeech18b</a>],
-  [<a href="#eswa19">ESWA19</a>].</p>
-  <p>PhD thesis proposal:
-  [<a href="#cmu-proposal">CMU-proposal</a>].</p>
   <p>PhD thesis:
   [<a href="#cmu-thesis">CMU-thesis</a>].</p>
 </div>
 <div class="card project">
-  <img src="img/proj/babel.jpg" alt="Keyword Search in Low-Resource Languages">
-  <h2>Keyword Search in Low-Resource Languages (03/2012 - 12/2014)</h2>
-  <p>I participated in the IARPA
-  <a target="_blank" href="https://www.iarpa.gov/index.php/research-programs/babel">Babel</a>
-  project, whose goal was to build speech recognizers and keyword detection
-  systems for low-resource languages such as Pashto and Tagalog.
-  I rewrote the code to generate confusion networks (which can be regarded as
-  indices for keyword detection) from lattices (which are the output of speech
-  recognizers), making it shorter, faster and better than before.
-  I also maintained the keyword detection toolkit, and built web-based error
-  analysis tools for the Radical team, of which CMU was a part.</p>
-  <p>Publications:
-  [<a href="#interspeech14a">Interspeech14a</a>],
-  [<a href="#interspeech14b">Interspeech14b</a>],
-  [<a href="#slt14">SLT14</a>],
-  [<a href="#icassp15">ICASSP15</a>].</p>
+  <img src="img/icon/robotwits.webp" alt="RobotWits LLC">
+  <h2>RobotWits LLC (06/2018 ~ 07/2019)</h2>
+  <p>Sound event detection (SED) is the task of classifying and localizing
+  semantically meaningful units of sounds, such as car engine noise and
+  dog barks, in audio streams.
+  Because it is expensive to obtain strong labeling that specifies the
+  onset and offset times of each event occurrence, I focused on how to train
+  SED systems with weak labeling in which the temporal information is incomplete.
+  I dealt with two types of weak labeling: (1) for presence/absence labeling
+  which provides no temporal information at all, I built SED systems using the
+  multiple instance learning (MIL) framework and compared many types of pooling functions;
+  (2) for sequential labeling which specifies the order of event boundaries,
+  I adapted the connectionist temporal classification (CTC) framework for
+  speech recognition and used it for SED.</p>
+  <p>In the first year of this project, I also worked on multimedia event detection,
+  which aims to understand what is the high-level event happening in a video
+  or audio recording, such as a soccer game or a birthday party.</p>
+  <p>Main publications:
+  <p>PhD thesis:
+  [<a href="#cmu-thesis">CMU-thesis</a>].</p>
 </div>
 <div class="card project">
-  <img src="img/proj/speaker-id.png" alt="Robust Open-Set Speaker Identification">
-  <h2>Robust Open-Set Speaker Identification (10/2010 - 02/2012)</h2>
-  <p>I built an open-set speaker identification system. To deal with noise and
-  channel mismatches, I explored an extensive variety of acoustic features.
-  I also compared several speaker modeling techniques, including GMM-UBM
-  (Gaussian mixture models - universal background model), GMM-SVM (support
-  vector machines using GMM supervectors), and JFA (joint factor analysis,
-  a precursor to the i-vector technique which soon became the mainstream).</p>
-  <p>Technical report: [<a href="#irosis">IROSIS</a>].</p>
+  <img src="img/icon/aptiv.png" alt="Aptiv PLC">
+  <h2>Aptiv PLC (03/2017 ~ 04/2018)</h2>
+  <p>Sound event detection (SED) is the task of classifying and localizing
+  semantically meaningful units of sounds, such as car engine noise and
+  dog barks, in audio streams.
+  Because it is expensive to obtain strong labeling that specifies the
+  onset and offset times of each event occurrence, I focused on how to train
+  SED systems with weak labeling in which the temporal information is incomplete.
+  I dealt with two types of weak labeling: (1) for presence/absence labeling
+  which provides no temporal information at all, I built SED systems using the
+  multiple instance learning (MIL) framework and compared many types of pooling functions;
+  (2) for sequential labeling which specifies the order of event boundaries,
+  I adapted the connectionist temporal classification (CTC) framework for
+  speech recognition and used it for SED.</p>
+  <p>In the first year of this project, I also worked on multimedia event detection,
+  which aims to understand what is the high-level event happening in a video
+  or audio recording, such as a soccer game or a birthday party.</p>
+  <p>Main publications:
+  <p>PhD thesis:
+  [<a href="#cmu-thesis">CMU-thesis</a>].</p>
 </div>
 <div class="card project">
-  <img src="img/proj/vmsep.png" alt="Separating Singing Voice and Accompaniment from Monaural Audio">
-  <h2>Separating Singing Voice and Accompaniment from Monaural Audio (02/2010 - 06/2010)</h2>
-  <p>I built a system to separate the singing voice and the accompaniment from
-  real-world music files. It first extracts the melody using a hidden Markov
-  model (HMM) and features based on harmonic summation, then separates the
-  singing voice and accompaniment using non-negative matrix factorization (NMF).
-  Evaluation on two public databases shows that the system reaches
-  state-of-the-art performance. The separated accompaniment has a quality high
-  enough to be used in singing performances.</p>
-  <p>This project is open-source on
-  <a target="_blank" href="https://github.com/MaigoAkisame/VMSep-2010">GitHub</a>,
-  and a demo of some separation results can be found
-  <a target="_blank" href="http://oa.ee.tsinghua.edu.cn/~ouzhijian/MaigoDemo/index.htm">here</a>.</p>
-  <p>Publications:
-  [<a href="#thu-thesis">THU-thesis</a>],
-  [<a href="#icassp11a">ICASSP11a</a>].
-  </p>
+  <img src="img/icon/linkedin.png" alt="LinkedIn">
+  <h2>LinkedIn (05/2016 ~ 08/2016)</h2>
+  <p>Sound event detection (SED) is the task of classifying and localizing
+  semantically meaningful units of sounds, such as car engine noise and
+  dog barks, in audio streams.
+  Because it is expensive to obtain strong labeling that specifies the
+  onset and offset times of each event occurrence, I focused on how to train
+  SED systems with weak labeling in which the temporal information is incomplete.
+  I dealt with two types of weak labeling: (1) for presence/absence labeling
+  which provides no temporal information at all, I built SED systems using the
+  multiple instance learning (MIL) framework and compared many types of pooling functions;
+  (2) for sequential labeling which specifies the order of event boundaries,
+  I adapted the connectionist temporal classification (CTC) framework for
+  speech recognition and used it for SED.</p>
+  <p>In the first year of this project, I also worked on multimedia event detection,
+  which aims to understand what is the high-level event happening in a video
+  or audio recording, such as a soccer game or a birthday party.</p>
+  <p>Main publications:
+  <p>PhD thesis:
+  [<a href="#cmu-thesis">CMU-thesis</a>].</p>
 </div>
-<div class="card project">
-  <img src="img/proj/humming.png" alt="Bit Vector Indexing for Query by Humming">
-  <h2>Bit Vector Indexing for Query by Humming (09/2007 - 06/2008)</h2>
-  <p>Query by humming (QBH) is a form of music retrieval, where users can search
-  for music by humming a piece of melody. It is supported by websites such as
-  <a target="_blank" href="http://soundhound.com">SoundHound</a>.
-  In QBH systems, music clips are represented by their "fingerprints", which
-  are points in a high-dimensional space, and bit vector indices (BVI) can
-  be used to speed up the search in this space. I built a bit vector indexing
-  system which ran 60 times faster than a naïve one-by-one comparison.</p>
+</section>
+
+<section id="education">
+<h1>Education</h1>
+<div class="card timeline">
+  <img src="img/icon/cmu.png" alt="Carnegie Mellon University">
+  <h2>Carnegie Mellon University</h2>
+  <table>
+    <tr><td>08/2015 ~ 12/2016</td><td>Master student at Robotics Institute</tr>
+  </table>
 </div>
-<div class="card project">
-  <img src="img/proj/vocal-synth.jpg" alt="Japanese Vocal Music Synthesis">
-  <h2>Japanese Vocal Music Synthesis (01/2007 - 02/2007)</h2>
-  <p>I built a simple system to synthesize vocal music in Japanese, by adjusting
-  the pitch and duration of pre-recorded syllables according to the music score.
-  I did this before even learning about the Fourier transform. You can listen
-  to some synthesized songs below:</p>
-  <ul>
-    <li><a target="_blank" href="demo/vocal-synth/sakurairo-no-kisetsu.mp3" lang="jp">桜色の季節</a> (<cite>The Cherry-Colored Season</cite>), an original song by me;</li>
-    <li><a target="_blank" href="demo/vocal-synth/haru-no-yobigoe.mp3" lang="jp">春の呼び声</a> (<cite>The Call of Spring</cite>), an original song by me;</li>
-    <li><a target="_blank" href="demo/vocal-synth/mune-ga-dokidoki.mp3" lang="jp">胸がドキドキ</a> (<cite>A Pounding Heart</cite>), the first opening song of <cite>Detective Conan</cite>.</li>
-  </ul>
-  <p>This project is open-source on
-  <a target="_blank" href="https://github.com/MaigoAkisame/VocalSynth-2007">GitHub</a>.
+<div class="card timeline">
+  <img src="img/icon/tsinghua.png" alt="Tsinghua University">
+  <h2>Tsinghua University</h2>
+  <table>
+    <tr><td>08/2010 ~ 07/2014</td><td>Undergraduate student in the Dept. of Engineering Physics</tr>
+  </table>
+</div>
+</section>
+
+<section id="projects">
+<h1>Work Experience</h1>
+<div class="card timeline">
+  <img src="img/icon/waymo.png" alt="Waymo">
+  <h2>Waymo LLC</h2>
+  <table>
+    <tr><td>08/2019 ~</td><td>Software Engineer in the Planner Core Team</tr>
+  </table>
 </div>
 </section>
 
@@ -377,21 +351,6 @@ function prepareLinks() {
 
 <section id="misc">
 <h1>Miscellaneous</h1>
-<div class="card misc">
-  <img src="img/icon/languages.png">
-  <p>
-    I know seven languages:
-    <span lang="zh-cn" title="Chinese (Mandarin)">汉语</span>,
-    <span lang="en" title="English">English</span>,
-    <span lang="ja" title="Japanese">日本語</span>,
-    <span lang="ko" title="Korean">한국어</span>,
-    <span lang="es" title="Spanish">español</span>,
-    <span lang="fr" title="French">français</span>, and
-    <span lang="vi" title="Vietnamese">tiếng Việt</span>.
-    And I can sing in <span lang="zh-yue" title="Cantonese">粵語</span>.
-  </p>
-  <p>I am proficient in the following programming languages: C, Java, Python and Matlab.</p>
-</div>
 <div class="card misc">
   <img src="img/icon/mcpdict.png">
   <p>
