@@ -15,12 +15,15 @@ body {
   padding: 46px 16px 16px 16px;
   font-family: "Segoe UI", Arial, sans-serif;
 }
+
 a {
   color: blue;
 }
+
 a:hover {
   color: red;
 }
+
 nav {
   display: block;
   max-width: 800px;
@@ -31,6 +34,7 @@ nav {
   right: 0;
   z-index: 1;
 }
+
 nav ul {
   background: linear-gradient(to bottom, #086ed5, #055db5);
   margin: 0;
@@ -38,9 +42,11 @@ nav ul {
   overflow: hidden;
   list-style: none;
 }
+
 nav li {
   float: left;
 }
+
 nav a {
   display: block;
   padding: 12px 20px;
@@ -48,24 +54,29 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
 }
+
 nav a:hover {
   color: white;
   background: linear-gradient(to bottom, #109010, #007000);
   cursor: pointer;
 }
+
 section {
   clear: both;
 }
+
 h1 {
   font-size: 200%;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
+
 h2 {
   font-size: 150%;
   font-weight: bold;
   margin-bottom: 0.5em;
 }
+
 .card {
   overflow: auto;
   margin: 0 5px 20px 0;
@@ -75,14 +86,17 @@ h2 {
   border-radius: 15px;
   line-height: 1.5;
 }
+
 img.contact-larger {
   width: 14%;
   height: auto;
 }
+
 img.contact-smaller {
   width: 13%;
   height: auto;
 }
+
 div.timeline img {
   float: left;
   width: 20%;
@@ -90,17 +104,21 @@ div.timeline img {
   margin: 15px 20px 15px 5px;
   border-radius: 15px;
 }
+
 div.timeline table {
   margin-bottom: 10px;
 }
+
 div.timeline table td {
   padding: 2px 0;
   vertical-align: top;
 }
+
 div.timeline table td:nth-child(1) {
   padding-right: 10px;
   white-space: nowrap;
 }
+
 div.project img {
   float: left;
   width: 33%;
@@ -108,15 +126,18 @@ div.project img {
   margin: 20px 20px 10px 0;
   border-radius: 15px;
 }
+
 #publications table td {
   padding: 4px 0;
   vertical-align: top;
 }
+
 #publications table td:nth-child(1) {
   text-align: right;
   padding-right: 15px;
   white-space: nowrap;
 }
+
 div.misc img {
   float: left;
   width: 15%;
@@ -131,9 +152,11 @@ div.misc img {
 function navHeight() {
   return document.getElementById("nav").offsetHeight;
 }
+
 function adjustTop() {
   document.body.style.paddingTop = navHeight() + "px";
 }
+
 function scrollTo(id) {
   document.getElementById(id).scrollIntoView();
   let pos = document.getElementById(id).getBoundingClientRect().top;
@@ -142,6 +165,7 @@ function scrollTo(id) {
     window.scrollBy(0, pos - height);
   }
 }
+
 function prepareLinks() {
   let links = document.getElementsByTagName("a");
   for (let i = 0; i < links.length; i++) {
